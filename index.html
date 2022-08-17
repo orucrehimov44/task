@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Test</title>
+    <style>
+        .col{
+            flex: 1;
+            padding-inline: 10px;
+        }
+        .col-header{
+            cursor: pointer;
+        }
+    </style>
+</head>
+<body>
+    <div id="main" style="display: flex">
+        <div class="col" style="flex: 1">
+            <h1 class="col-header animals" >ANIMALS</h1>
+            <div class="col-body" id="animals"></div>
+        </div>
+        <div class="col" style="flex: 1">
+            <h1 class="col-header books">BOOKS</h1>
+            <div class="col-body" id="books"></div>
+        </div>
+        <div class="col" style="flex: 1">
+            <h1 class="col-header goverment">GOVERNMENT</h1>
+            <div class="col-body" id="goverment"></div>
+        </div>
+        <div class="col" style="flex: 1">
+            <h1 class="col-header others">OTHERS</h1>
+            <div class="col-body" id="others"></div>
+        </div>
+    </div>
+
+
+
+    <script src="script.js"></script>
+</body>
+</html>
